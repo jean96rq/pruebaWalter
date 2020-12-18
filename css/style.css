@@ -509,9 +509,12 @@ main {
     .btnShadow {
         display: none!important;
     }
-    .contendServices {
-        grid-template-columns: repeat(1, 1fr);
+    .contendServices img {
+        width: 100%;
     }
+    /* .contendServices {
+        grid-template-columns: repeat(1, 1fr);
+    } */
     .contendtAboutMe {
         grid-template-columns: repeat(1, 1fr)
     }
